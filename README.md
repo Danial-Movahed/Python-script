@@ -6,6 +6,8 @@ This script uses xdotool and xmessage for ease
 The effects option is only for cinnamon but
 you can use it with any linux distro and any DE.
 
+It has some *Achivements* that you can experience. :)
+
 ## Using
 No special guides just download main.py and ooh.mp3
 in same directory and run or use the command below. :)
