@@ -253,7 +253,7 @@ def snap():
     snst=os.system('xmessage -buttons Yes,No "$@" "Do you like to install snap?"')
     if snst==25856:
         os.system('pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY xterm -e \'mv /etc/apt/preferences.d/nosnap.pref /etc/apt/preferences.d/nosnap.pref.bak ; apt update ; apt install snap\'')
-        os.system('notify-send "Achievment Unlocked!" "Why?!"')
+        os.system('notify-send "Achievment Unlocked!" "Canonical time!"')
 def cortana():
     cortst=os.system('xmessage -buttons Yes,No "$@" "Do you like to install cortana (mycroft)? (Danial recommendation)"')
     if cortst==25856:
