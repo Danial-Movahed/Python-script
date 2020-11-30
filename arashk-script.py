@@ -202,7 +202,7 @@ def cam():
 def arashk():
     arra=os.system('xmessage -buttons Minimal,Full,"Not now" "$@" "Installing some goodies!"')
     if arra==25856:
-        os.system('xmessage "Installing minimal arashk specified packages."')
+        os.system('xmessage "Minimal Installation!"')
         os.system('pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY xterm -e \' wget --continue https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb ; apt install zsh codeblocks playonlinux skypeforlinux adobe-flashplugin adobe-flashplugin-properties-gtk boot-repair vim gromit-mpx ; add-apt-repository ppa:lutris-team/lutris ; apt update ; apt install lutris ; dpkg -i google-chrome-stable_current_amd64.deb\'')
         subprocess.Popen(['xterm', '-e','zsh'])
         sleep (2)
@@ -226,7 +226,7 @@ def arashk():
         sleep (2)
         os.system('notify-send "Hmm" "Minimal installation completed!"')
     elif arra==26112:
-        os.system('xmessage "Installing Full Ario specified packages."')
+        os.system('xmessage "Full Installation!"')
         os.system('pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY xterm -e \'add-apt-repository ppa:apandada1/xournalpp-stable ; apt update ; apt install xournalpp ; wget --continue https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb ; wget --continue http://www.geogebra.net/linux/pool/main/g/geogebra-classic/geogebra-classic_6.0.609.0-202010060653_amd64.deb ; wget --continue https://dl.discordapp.net/apps/linux/0.0.12/discord-0.0.12.deb ; apt install zsh codeblocks playonlinux skypeforlinux adobe-flashplugin tuxmath boot-repair vim gromit-mpx bb dolphin-emu cmatrix gnujump supertux supertuxkart thonny compiz dconf-editor grub-customizer anbox python3-pip ; add-apt-repository ppa:lutris-team/lutris ; apt update ; apt install lutris ; dpkg -i google-chrome-stable_current_amd64.deb geogebra-classic_6.0.609.0-202010060653_amd64.deb ; dpkg -i discord-0.0.12.deb ; python3 -m pip install legendary-gl\'')
         subprocess.Popen(['xterm', '-e','zsh'])
         sleep (2)
