@@ -283,10 +283,10 @@ def wine_stag():
             os.system('pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY xterm -e \'wget -nc https://dl.winehq.org/wine-builds/winehq.key ; apt-key add winehq.key ; add-apt-repository "deb https://dl.winehq.org/wine-builds/ubuntu/ focal main" ; apt update ; apt install --install-recommends winehq-staging\'')
             subprocess.Popen(['notify-send', 'Achievment Unlocked!', 'Ooooooooooooooooooo. Time for hackers!'])
             subprocess.Popen(['aplay','ooh.mp3'])
-            subprocess.Popen(['sleep','5',';','notify-send', 'Achievment Unlocked!', 'Time for Micorrupt Office!'])
+            subprocess.Popen(['sleep','5',';','notify-send', 'Achievment Unlocked!', 'Time for Microsoft Office!'])
         elif wnst2==26112:
             os.system('pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY xterm -e \'wget -nc https://dl.winehq.org/wine-builds/winehq.key ; apt-key add winehq.key ; add-apt-repository "deb https://dl.winehq.org/wine-builds/ubuntu/ focal main" ; apt update ; apt install --install-recommends winehq-stable\'')
-            subprocess.Popen(['notify-send', 'Achievment Unlocked!', 'Time for Micorrupt Office!'])
+            subprocess.Popen(['notify-send', 'Achievment Unlocked!', 'Time for Microsoft Office!'])
             
 depd=os.system('xmessage -buttons Yes,No "$@" "Are the dependencies installed?"')
 if depd==25856:
